@@ -11,7 +11,7 @@ For running the Terraform script:
 3. You can input the environment name , application name tag to create the s3 bucket with name as environmentname-application name
    eg : dev-demohari-s3
    
-4. The Terrform script will do the following things 
+ The Terrform script will do the following things 
 
 
 1. Create cloudfront and s3
