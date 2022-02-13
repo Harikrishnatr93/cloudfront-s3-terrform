@@ -16,11 +16,13 @@ For running the Terraform script:
 
 1. Create cloudfront and s3
 2. Integrate cloudfront and s3
-3. Kept the s3 as private and enable encryption with default encryption key \
-4. Put the index page(Default root object) as "index.html"
-5. Enable compression 
-6. Enable Price class 200 (Edge location : North America, Europe, Asia, Middle East, and Africa)
-7. Redirect HTTP to HTTPS 
+3. Enable Static website hosting in S3
+4. Kept the s3 as private and enable encryption with default encryption key \
+5. Put the index page(Default root object) as "index.html"
+6. Enable compression 
+7. Enable Price class 200 (Edge location : North America, Europe, Asia, Middle East, and Africa)
+8. Redirect HTTP to HTTPS 
+9. Input a rewrite rule in s3 (you can update the rule by adding it in script)
 
 
 
